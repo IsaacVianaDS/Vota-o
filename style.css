@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(132, 132, 132);
+    text-align: center;
+    display: flex;
+}
+
+.conteiner {
+    background-color: rgba(96, 93, 93, 0.74);
+    text-align: center;
+    border-radius: 12px;
+    width: 50vw;
+    margin: auto;
+}
