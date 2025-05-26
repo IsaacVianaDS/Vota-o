@@ -10,12 +10,14 @@ botoes.forEach(botao => {
   botao.addEventListener("click", () => {
     const candidato = botao.dataset.candidato;
 
-    if (candidato === "a") danilo++;
-    if (candidato === "b") votosb++;
-    if (candidato === "c") votosc++;
+    if (candidato === "Roma") votoRoma++;
+    if (candidato === "Maracujar") votoMaracujar++;
+    if (candidato === "Morango") votoMorango++;
+    if (candidato === "Tomate") votoTomate++;
 
-    document.getElementById("votosa").textContent = danilo;
-    document.getElementById("votosb").textContent = lucas;
-    document.getElementById("votosc").textContent = gabriel;
+    document.getElementById("votoRoma").textContent = Roma;
+    document.getElementById("votoMaracujar").textContent = Maracujar;
+    document.getElementById("votoMorango").textContent = Morango;
+    document.getElementById("votoTomate").textContent = Tomate;
   });
 });
