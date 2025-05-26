@@ -22,10 +22,12 @@ botoes.forEach(botao => {
 });
 
 document.getElementById("reiniciar").addEventListener("click", () => {
-    votoRoma = 0;
-    votoMaracuja = 0;
-    votoMorango = 0;
-    votoTomate = 0;
+    let zero = 0
+
+    votoRoma = zero;
+    votoMaracuja = zero;
+    votoMorango = zero;
+    votoTomate = zero;
   
     document.getElementById("votoRoma").textContent = votoRoma;
     document.getElementById("votoMaracuja").textContent = votoMaracuja;
