@@ -1,13 +1,12 @@
-body {
-    background-color: rgb(210, 212, 212);
+body{
+    background-image:url(fundo2.png);
     text-align: center;
-    padding: 20px;
-    
 }
-
-.conteiner {
-    background-color: white;
+.container{   /*edição da div conteiner*/
+    background-color: rgb(255, 250, 243);
+    width: 50vw;
     border-radius: 12px;
+    margin: auto;
     padding: 30px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -22,9 +21,25 @@ body {
 }
 
 .voto{
-    width:fit-content;
+ 
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #ddd;
+    background: linear-gradient(145deg, #6a6a6a, #4a4a4a);
+    border: 2px solid #3a3a3a;
+    border-top-color: #8a8a8a;
+    border-left-color: #8a8a8a;
+    border-radius: 2px;
+    box-shadow:inset 2px 2px 0 #a0a0a0, inset -2px -2px 0 #2a2a2a;
+    cursor: pointer;
 }
 
 .voto:hover {
-  background-color: #2a4855;
+    background: linear-gradient(145deg, #7a7a7a, #5a5a5a);
+    box-shadow:
+      inset 1px 1px 0 #b0b0b0,
+      inset -1px -1px 0 #1a1a1a;
+    color: #fff;
 }
